@@ -81,8 +81,10 @@
     <div>
       <h3>ارتباط با ایمیل</h3>
       <p>نظرات خودتان را از طریق ایمیل با ما به اشتراک بزارید</p>
-      <input type="email" placeholder="ایمیل را وارد کنید">
-      <input type="submit" value="ارسال" class="btn btn-primary">
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="email" name="email" placeholder="ایمیل را وارد کنید">
+        <input type="submit" value="ارسال" class="btn btn-primary">
+      </form>
     </div>
 
     <div>
